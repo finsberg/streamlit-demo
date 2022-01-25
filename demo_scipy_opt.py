@@ -157,6 +157,6 @@ pages[page]()
 # About
 st.sidebar.markdown(
     """
-- [Source code](#)
+- [Source code](https://github.com/finsberg/streamlit-demo)
 """,
 )

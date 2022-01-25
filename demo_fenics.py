@@ -121,7 +121,7 @@ def fenics_page():
         import fenics_plotly
     except ImportError:
         st.error(
-            "This demo requires 'fenics_plot' to be installed - python -m pip install fenics_plotly"
+            "This demo requires 'fenics_plotly' to be installed - python -m pip install fenics_plotly"
         )
         return
 
@@ -148,6 +148,6 @@ fenics_page()
 # About
 st.sidebar.markdown(
     """
-- [Source code](#)
+- [Source code](https://github.com/finsberg/streamlit-demo)
 """,
 )
